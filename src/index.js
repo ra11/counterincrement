@@ -4,9 +4,10 @@ import Counter from './counter'
 import ShowText from './task2';
 import GetInput from './task3';
 import FetchData from './task4';
+import ShoppingList from './task5.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<FetchData></FetchData>
+root.render(<ShoppingList></ShoppingList>
 );
 
 
